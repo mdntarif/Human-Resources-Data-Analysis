@@ -8,46 +8,29 @@ This analysis uses a dataset with multiple tables containing employee informatio
 
 ### Key Business Problems & Solutions
 
-1. **Workforce Diversity and Engagement**:
-   - Analyze the gender and race distribution across departments.
-   - Categorize employees by age groups within departments.
-   - Calculate average employee engagement scores by department.
-   - Use functions like `COUNTIF` and `AVERAGEIF` to calculate gender, race, age group distribution, and engagement.
-   - Visualize with pie, bar, and clustered column charts for better comparative analysis.
+- **Workforce Diversity and Engagement**:  
+  Analyze gender, race, and age distribution by department and calculate average engagement scores using `COUNTIF` and `AVERAGEIF`. Visualize with charts.
 
-2. **Employee Profile & Communication**:
-   - Extract and clean employee data (e.g., convert names to uppercase, calculate ages).
-   - Generate personalized email addresses for each employee.
-   - Standardize email format using first initial, last name, age, and domain.
+- **Employee Profile & Communication**:  
+  Extract and clean employee data, generate personalized email addresses with standardized format (initial + last name + age).
 
-3. **Performance Evaluation**:
-   - Use `VLOOKUP`, `XLOOKUP`, and `INDEX-MATCH` functions to retrieve employee names and performance scores based on EmpID.
-   - Build a dynamic and automated performance evaluation report for HR managers.
+- **Performance Evaluation**:  
+  Use `VLOOKUP`, `XLOOKUP`, and `INDEX-MATCH` to retrieve employee names and performance scores. Automate performance evaluation reporting.
 
-4. **Employee Distribution Analysis**:
-   - Use Pivot Tables to compare employee values (salary, performance rating) across categories.
-   - Segment the distribution by marital status and visualize with charts.
+- **Employee Distribution Analysis**:  
+  Use Pivot Tables to compare salary and performance ratings across categories, segmented by marital status.
 
-5. **Department-Wise Employee Comparison**:
-   - Analyze employee distribution across departments segmented by marital status and gender.
-   - Use Pivot Tables with filters to segment by gender and marital status.
-   - Provide insights into workforce demographics and diversity.
+- **Department-Wise Employee Comparison**:  
+  Analyze employee distribution by department, gender, and marital status using Pivot Tables.
 
-6. **Engagement and Satisfaction Analysis**:
-   - Calculate average engagement survey scores and satisfaction scores by department.
-   - Use Pivot Tables to compare these metrics, filtered by gender.
-   - Visualize with Clustered Column Charts to identify trends and areas for improvement.
+- **Engagement and Satisfaction**:  
+  Calculate average engagement and satisfaction scores by department, filtered by gender. Visualize trends with Clustered Column Charts.
 
-7. **Position and Compensation Analysis**:
-   - Create a comparison report on employee positions across departments.
-   - Analyze key performance metrics such as average engagement score and pay rate.
-   - Filter the data by marital status, citizenship status, and gender.
-   - Enhance the report with conditional formatting and a professional design.
+- **Position and Compensation Analysis**:  
+  Compare employee positions, engagement scores, and pay rates across departments, filtering by marital status, citizenship, and gender.
 
-8. **Statistical Insights for Talent Management**:
-   - Apply statistical concepts such as mean, median, mode, variance, standard deviation, and correlation.
-   - Extract insights like average age, level, most common department, age variance, and the correlation between department and manager.
-   - Use these insights to guide strategic HR decisions on hiring, promotions, and workforce planning.
+- **Statistical Insights for Talent Management**:  
+  Apply statistical concepts (mean, median, variance, etc.) to uncover insights like average age, common departments, and correlations for strategic HR decisions.
 
 ## Tools & Techniques Used
 
@@ -66,14 +49,7 @@ The dataset used includes the following tables:
 - **tbl_hr_data.txt**: Detailed HR data including performance scores, employment status, and department information.
 - **tbl_perf.csv**: Employee performance data including performance ratings and review dates.
 
-## How to Use
-
-1. **Data Import**: Import the provided dataset using Power Query.
-2. **Data Cleaning**: Apply necessary transformations to clean text columns and standardize date formats.
-3. **Data Modeling**: Use Power Pivot to join the four tables on `EmpID` and create relationships between them.
-4. **Statistical Analysis**: Apply statistical measures to generate insights on employee demographics, performance, and organizational trends.
-5. **Pivot Tables & Visualization**: Build Pivot Tables for each analysis task and visualize with appropriate charts.
-6. **Reporting**: Create concise and visually appealing reports using conditional formatting and charts.
+- The original Dataset- [Kaggle](https://www.kaggle.com/datasets/davidepolizzi/hr-data-set-based-on-human-resources-data-set/data)
 
 ## Business Applications
 
