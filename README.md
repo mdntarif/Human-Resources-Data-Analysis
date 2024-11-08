@@ -49,7 +49,7 @@ The dataset used includes the following tables:
 - **tbl_hr_data.txt**: Detailed HR data including performance scores, employment status, and department information.
 - **tbl_perf.csv**: Employee performance data including performance ratings and review dates.
 
-- The original Dataset- [Kaggle](https://www.kaggle.com/datasets/davidepolizzi/hr-data-set-based-on-human-resources-data-set/data)
+The original Dataset- [Kaggle](https://www.kaggle.com/datasets/davidepolizzi/hr-data-set-based-on-human-resources-data-set/data)
 
 ## Business Applications
 
