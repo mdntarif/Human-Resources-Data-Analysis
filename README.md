@@ -83,14 +83,7 @@ The dataset used includes the following tables:
 - **Compensation Analysis**: Assess employee compensation and performance metrics to ensure fair and competitive salaries.
 - **Strategic HR Decision-Making**: Use data-driven insights to optimize talent management, promotions, and resource allocation.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Contact
-
-For more information or questions regarding the project, please contact me via GitHub.
+For more information or questions regarding the project, please contact me via [LinkedIn](https://www.linkedin.com/in/mdtarif/)
 
 ---
-
-This `README.md` offers a clear and concise description of your project, including the business problems, tools, and methodologies used. It’s structured for easy understanding, especially for potential collaborators or employers reviewing the project on GitHub.
