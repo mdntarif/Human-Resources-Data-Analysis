@@ -2,6 +2,9 @@
 
 This project focuses on analyzing and visualizing key workforce metrics from the **Human Resources Data Set**. It leverages advanced Excel techniques such as Power Query, Pivot Tables, statistical analysis, and various lookup functions to extract, clean, and model HR data. The ultimate goal is to gain insights into workforce diversity, employee performance, and organizational trends to guide HR decision-making and strategic workforce planning.
 
+![image](https://github.com/user-attachments/assets/55a0a370-9465-4c1f-8ad0-7a2376cce544)
+
+
 ## Project Overview
 
 This analysis uses a dataset with multiple tables containing employee information, performance scores, and HR-related data. The project solves business problems related to employee demographics, performance evaluations, workforce diversity, engagement, and organizational structure. Key techniques include Power Query, statistical analysis (mean, median, mode, variance, etc.), and data visualization through Pivot Tables and charts.
